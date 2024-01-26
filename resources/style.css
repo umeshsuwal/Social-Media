@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Flavors&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(#9d05f5,#0fa8e4);
+  background-size: cover;
+}
+.container{
+    height: 620px;
+    width: 490px;
+    background: #ffffffec;
+    border: 3px solid;
+    border-radius: 32px;
+    border-color: #000000ad;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: #000;
+}
+.heading {
+    overflow: hidden;
+    background: linear-gradient(#4c00ff,#ff00c8);
+    opacity: 90%;
+    width: 520px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+.head-icon {
+    width: 40px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 32px;
+    margin-top: 19px;
+}
+.heading h2 {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 80px;
+    text-decoration: none;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.content {
+    padding: 16px;
+    position: relative;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  div.content {
+    margin: 4px, 4px;
+    padding: 4px;
+    width: 493px;
+    height: 550px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.profile {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 2px solid #9d05f5;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.badge {
+    width: 16px;
+    position: absolute;
+    margin-left: 248px;
+    margin-top: 25px;
+}
+.details {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -110px;
+    font-size: 14px;
+}
+.user-bio{
+    font-style: italic;
+    font-weight: 400;
+}
+.username {
+    font-size: 13px;
+    padding: 6px;
+}
+.follow {
+    display: flexbox;
+    position: relative;
+}
+.text {
+    margin: 18px;
+}
+.numbers {
+    position: absolute;
+    font-weight: 700;
+    margin-left: 6px;
+}
+.number {
+    position: absolute;
+    font-weight: 700;
+    margin-left: -11px;
+}
+.posts {
+    margin-top: 10px;
+}
+.post-head{
+    margin-left: 10px;
+}
+.imagerow {
+    margin: 12px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between; /* this will add equal space between each image */
+}
+.post-image {
+    height: 142px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 6px;
+    cursor: zoom-in;
+}
+.post-image:active{
+    transform: scale(3);
+    transform-origin: center;
+    opacity: 96%;
+    border-radius: 8px;
+    cursor: zoom-out;
+}
+#Image1:active{
+    transform: scale(3);
+    transform-origin: left;
+}
+#Image3:active{
+    transform: scale(3);
+    transform-origin: right;
+}
